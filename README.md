@@ -36,7 +36,7 @@ To ensure smooth data handling across the system, Data Flow Diagrams (DFDs) were
 
 ### Highlight: Circulation Process (Borrow/Return)
 *<p align="center">Insert your DFD Level 1 or 2 image here</p>*
-![DFD Circulation](docs/images/dfd level 1.png)
+![DFD Circulation](docs/images/dfdlevel1.png)
 
 The structured analysis ensures that every input (e.g., scanning a patron's card) is validated against necessary data stores (Patron Database, Fines Database) before altering the state of the book inventory.
 
