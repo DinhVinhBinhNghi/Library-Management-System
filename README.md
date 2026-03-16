@@ -8,7 +8,6 @@
 ## 📌 Project Overview
 This repository contains the complete system analysis, architectural design, and data modeling for a modern **Library Management System (LMS)**. The project bridges the gap between business requirements and technical implementation, heavily focusing on **data integrity, process optimization, and scalable database design**. 
 
-This project was developed for the *Information System Analysis and Design* course, achieving an overall score of **8.9/10**.
 
 ## 🎯 Business Problems Solved
 Traditional libraries struggle with duplicate data, inefficient tracking of physical book copies, and manual fine calculations. This system architecture solves these by:
@@ -22,7 +21,7 @@ Traditional libraries struggle with duplicate data, inefficient tracking of phys
 A strictly normalized Entity-Relationship Diagram (Chen Notation) was designed to handle complex library operations.
 
 *<p align="center">Insert your ERD image here</p>*
-`![ERD Diagram](docs/images/erd.png)`
+![ERD Diagram](docs/images/erd.png)
 
 **Key Data Modeling Highlights:**
 * **`DAUSACH` (Title) vs `CUONSACH` (Physical Item):** Modeled separately. Users search and reserve `DAUSACH`, but borrow a specific `CUONSACH`.
